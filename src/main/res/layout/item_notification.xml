@@ -6,7 +6,7 @@
 
         <variable
             name="item"
-            type="com.platinummzadat.qa.data.models.NotificationModel" />
+            type="app.platinummzadat.qa.data.models.NotificationModel" />
     </data>
 
     <LinearLayout

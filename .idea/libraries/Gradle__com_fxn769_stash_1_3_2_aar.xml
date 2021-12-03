@@ -4,7 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1ba191b6c86c82ee058497b0e9ae0dc/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1ba191b6c86c82ee058497b0e9ae0dc/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fxn769/stash/1.3.2/279afecd83227095a4fbfbc755961af77edebf25/stash-1.3.2-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fxn769/stash/1.3.2/2343dd0dfc3ba5da856f352fffa2a3631c26e089/stash-1.3.2-sources.jar!/" />
     </SOURCES>

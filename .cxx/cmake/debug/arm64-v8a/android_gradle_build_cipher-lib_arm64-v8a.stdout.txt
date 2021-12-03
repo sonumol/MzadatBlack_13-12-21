@@ -1,0 +1,4 @@
+ninja: Entering directory `E:\Weblanza\mzadat new\black_mzadat\new_black\MzadatBlack-20191104\MzadatBlack\app\.cxx\cmake\debug\arm64-v8a'
+[1/3] Building CXX object cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o
+[2/3] Building CXX object cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o
+[3/3] Linking CXX shared library "E:\Weblanza\mzadat new\black_mzadat\new_black\MzadatBlack-20191104\MzadatBlack\app\build\intermediates\cmake\debug\obj\arm64-v8a\libcipher-lib.so"

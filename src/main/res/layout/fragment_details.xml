@@ -40,7 +40,54 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/content1"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
 
+                <TextView
+                    android:id="@+id/lastbideer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <com.hbb20.CountryCodePicker
+                    app:ccp_hintExampleNumber="false"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/country_code_picker"
+                    android:focusable="false"
+                    app:ccp_showFlag="true"
+                    app:ccp_showArrow="false"
+                    app:ccp_clickable="false"
+                    android:visibility="gone"
+                    app:ccp_showPhoneCode="false"
+                    app:ccp_showNameCode="false"
+                    android:layout_width="wrap_content"
+                    app:ccp_contentColor="@color/solid_black"
+                    app:ccp_textSize="14dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintStart_toEndOf="@id/lastbideer">
+
+                </com.hbb20.CountryCodePicker>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,12 +107,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:layout_marginTop="8dp"
                         android:textColor="@color/colorBidPrice"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
+
                     <LinearLayout
+                        android:id="@+id/l2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
@@ -80,13 +128,28 @@
                             android:layout_gravity="center"
                             app:srcCompat="@drawable/ic_item_view_sand_clock" />
 
-                        <TextView
-                            android:id="@+id/tvTimeLeft"
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="8dp"
-                            android:textSize="14sp" />
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvTimeLeft1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="14sp" />
+                            <TextView
+                                android:layout_marginLeft="8dp"
+
+                                android:id="@+id/tvTimeLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp" />
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -118,6 +181,9 @@
                     android:text="@string/you_are_the_last_bidder"
                     android:textColor="@color/colorYellowDark"
                     android:visibility="gone" />
+            </LinearLayout>
+
+
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -170,7 +236,7 @@
                         android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:layout_marginEnd="8dp"
-                        android:visibility="gone"/>
+                        android:visibility="visible"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -183,15 +249,32 @@
                             android:layout_height="wrap_content"
                             android:textColor="#222222"
                             android:textSize="18sp"
+                            android:text=""
                             android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tvCourt"
+                            android:text=""
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp" />
                     </LinearLayout>
+
                 </LinearLayout>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/selling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="24dp"
+                    android:enabled="false"
+                    android:text="Near to Selling price"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorYellow"
+                    android:minHeight="25dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:visibility="visible" />
 
                 <View
                     android:id="@+id/divider3"
@@ -203,6 +286,7 @@
                     android:background="@color/colorDivider" />
 
                 <LinearLayout
+                    android:id="@+id/l1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -446,6 +530,7 @@
                                   android:layout_height="24dp"
                                   android:layout_gravity="center"
                                   android:scaleType="fitCenter"
+                                  android:tint="@color/colorYellowLight"
                                   app:srcCompat="@drawable/ic_item_view_inspection_report" />
 
                               <TextView
@@ -483,6 +568,7 @@
                                   android:layout_width="24dp"
                                   android:layout_height="24dp"
                                   android:layout_gravity="center"
+                                  android:tint="@color/colorYellowLight"
                                   android:scaleType="fitCenter"
                                   app:srcCompat="@drawable/ic_item_view_location_map" />
 
@@ -522,6 +608,7 @@
                                   android:layout_height="24dp"
                                   android:layout_gravity="center"
                                   android:padding="2dp"
+                                  android:tint="@color/colorYellowLight"
                                   android:scaleType="fitCenter"
                                   app:srcCompat="@drawable/ic_item_view_specification" />
 
@@ -567,6 +654,7 @@
                                   android:layout_width="24dp"
                                   android:layout_height="24dp"
                                   android:layout_gravity="center"
+                                  android:tint="@color/colorYellowLight"
                                   android:scaleType="fitCenter"
                                   app:srcCompat="@drawable/ic_item_view_tac" />
 
@@ -574,6 +662,7 @@
                                   android:layout_width="wrap_content"
                                   android:layout_height="wrap_content"
                                   android:layout_gravity="center"
+
                                   android:layout_marginTop="8dp"
                                   android:gravity="center"
                                   android:text="@string/terms_and_conditions"
@@ -602,6 +691,7 @@
 
                               <ImageView
                                   android:layout_width="24dp"
+                                  android:tint="@color/colorYellowLight"
                                   android:layout_height="24dp"
                                   android:layout_gravity="center"
                                   android:scaleType="fitCenter"
@@ -639,6 +729,7 @@
                               <ImageView
                                   android:layout_width="24dp"
                                   android:layout_height="24dp"
+                                  android:tint="@color/colorYellowLight"
                                   android:layout_gravity="center"
                                   android:scaleType="fitCenter"
                                   app:srcCompat="@drawable/ic_item_view_share_bid" />

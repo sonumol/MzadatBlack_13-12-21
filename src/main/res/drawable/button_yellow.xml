@@ -4,13 +4,13 @@
         <shape android:shape="rectangle">
             <corners android:radius="32dp" />
             <!--<solid android:color="@color/colorYellowLight" />-->
-            <gradient android:angle="90" android:endColor="#f7c30b" android:startColor="#b98f17" />
+            <gradient android:angle="90" android:endColor="#a38443" android:startColor="#a38443" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="32dp" />
-            <gradient android:angle="90" android:endColor="#f7c30b" android:startColor="#b98f17" />
+            <gradient android:angle="90" android:endColor="#a38443" android:startColor="#a38443" />
             <!--<solid android:color="@color/colorYellow" />-->
         </shape>
     </item>

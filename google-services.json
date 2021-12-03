@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:134957552582:android:6e02278aa34d65e2",
+        "mobilesdk_app_id": "1:134957552582:android:756da4eb8a1a2c268fd8c7",
         "android_client_info": {
           "package_name": "app.platinummzadat.qa"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "134957552582-r2eq74kkacgenmcju0qabk8tlps41ms2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.platinummzadat.qa",
+            "certificate_hash": "b0aa4b22a9bf853c16282825ea67212d75b00143"
+          }
+        },
         {
           "client_id": "134957552582-pjfh8hbe2j3mcfd7hgokf9189t7k8m3l.apps.googleusercontent.com",
           "client_type": 3
@@ -49,6 +57,14 @@
           "android_info": {
             "package_name": "com.platinummzadat.qa",
             "certificate_hash": "b0aa4b22a9bf853c16282825ea67212d75b00143"
+          }
+        },
+        {
+          "client_id": "134957552582-iv6vj2m0tqvmfns9nhaq9lu841a4ropo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.platinummzadat.qa",
+            "certificate_hash": "b28d944bd79a9855cfbc1c0349124a89c8983972"
           }
         },
         {

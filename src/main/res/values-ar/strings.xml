@@ -1,7 +1,7 @@
 ﻿<resources>
-    <string name="app_name"> بلاتينيوم للمزادات </string>
+    <string name="app_name"> مزادات بلاتينية </string>
     <string name="apikey"></string>
-    <string name="court_mzadat">  مزادات المحاكم   </string>
+    <string name="court_mzadat">  بلاتينيوم للمزادات </string>
     <string name="action_language_switch">English</string>
     <string name="title_activity_splash">Mzadat</string>
     <string name="title_activity_deep_link">@string/app_name</string>
@@ -21,6 +21,7 @@
     <string name="did_not_receive_the_otp">   لم تتلقى الرمز؟   </string>
     <string name="title_activity_password">  كلمه السر   </string>
     <string name="confirm">  تؤكد   </string>
+    <string name="buy_product"> هل انت متأكد من شراء هذا المنتج ؟ </string>
     <string name="please_set_your_npassword_for_future_use">  يرجى ضبط كلمة مرورك للاستخدام في المستقبل   </string>
     <string name="password">  كلمه السر   </string>
     <string name="enter_password">  أدخل كلمة المرور  </string>
@@ -41,13 +42,25 @@
 
     <string name="winning_amount"> مبلغ الربح </string>
 
+
+
+    <string name="home_icons1">Auctions11</string>
+    <string name="home_icons2">Direct Purchase11</string>
+    <string name="buy">إشتر الآن</string>
+
+
+    <string name="select_option">الرجاء الاختيار</string>
     <string name="pay_now"> ادفع الآن </string>
     <string name="paid_on"> تم الدفع بتاريخ </string>
     <string name="my_bids">   مزايداتي  </string>
     <string name="my_profile">   الملف الشخصي   </string>
     <string name="retry">  إعادة المحاولة   </string>
     <string name="nav_auctions">   المزادات   </string>
+    <string name="direct_Purchase">الشراء المباشر</string>
+
     <string name="nav_my_profile">   الملف الشخصي   </string>
+    <string name="nav_my_PRODUCT">مشترياتي</string>
+
     <string name="nav_deposit_amount">  مبلغ التأمين   </string>
     <string name="nav_my_bids">  مزايداتي   </string>
     <string name="nav_about_us">    حول بلاتينيوم للمزادات    </string>
@@ -71,11 +84,16 @@
     <string name="inspection_location_map">   خريطة موقع الفحص  </string>
     <string name="send_feedback">  ارسل رأيك   </string>
     <string name="share_this_bid">  مشاركة هذا العرض   </string>
+    <string name="share_this_bid1">مشاركة هذا العرض</string>
+    <string name="share_product">I am using auction app, checkout this ongoing auction. %2$s </string>
+
     <string name="inspection_report">  تقرير الفحص   </string>
     <string name="terms_and_conditions">   الشروط والاحكام  </string>
     <string name="specification"> المواصفات   </string>
     <string name="title_activity_slider"> عرض الصورة   </string>
     <string name="place_bid">   إرسال المزايده   </string>
+    <string name="yes"> YES</string>
+    <string name="no"> NO</string>
     <string name="bid_alert_terms_and_conditions">  أؤكد بموجب هذا أنني قد قرأت جميع مواصفات وشروط هذا المزاد وأوافق عليه   </string>
     <string name="minimum_bid_amount_format">   الحد الأدنى لمبلغ العطاء هو %1$s   </string>
     <string name="accept_tac_to_place_bid">   يرجى قبول الشروط والأحكام لوضع العطاء  </string>
@@ -85,6 +103,9 @@
     <string name="title_activity_search">  بحث   </string>
     <string name="search_format">  بحث: %1$s   </string>
     <string name="invalid_credentials">  بيانات الاعتماد غير صالحة  </string>
+    <string name="invalid_credentials3">  قام شخص آخر بالتسجيل باستخدام رقم السجل التجاري. يرجى المحاولة مع سجل تجاري جديد أو الاتصال بالمسؤول على 40093636  </string>
+    <string name="invalid_credentials4">لتسجيل الدخول: يجب أن يتطابق رقم قيد المنشأة ورقم الهاتف الجوال \n. للتسجيل الجديد: يجب ان لا يكون رقم قيد المنشأة ورقم الهاتف الجوال مسجلين مسبقًا. </string>
+
     <string name="invalid_credentials2">  \n فشل تسجيل الدخول : \n  لتسجيل الدخول يجب مطابقة الرقم الشخصي مع رقم الجوال المسجل.   \n  في حال التسجيل اول مره يجب ان يكون رقم الجوال والبطاقة الشخصية غير مسجلة من قبل.  </string>
     <string name="some_error_occurred">   حدث خطأ ما!   </string>
     <string name="incorrect_otp_please_try_again"> خطأ في رمز المرور  </string>
@@ -92,6 +113,7 @@
     <string name="please_login_to_continue">  الرجاء تسجيل الدخول للمتابعة   </string>
     <string name="login">   تسجيل الدخول  </string>
     <string name="can_not_place_bid">  لا يمكن وضع العطاء   </string>
+    <string name="can_not_buy">لايمكن الشراء</string>
     <string name="ok">  حسنا  </string>
     <string name="added_to_wish_list">   أضيف لقائمة الأماني   </string>
     <string name="location_not_available">  الموقع غير متوفر   </string>
@@ -108,8 +130,12 @@
     <string name="otp_resend">  إعادة إرسال مكتب المدعي العام. ارجوك انتظر   </string>
     <string name="otp_resend2">  اعادة ارسال رمز التحقق   </string>
     <string name="enter_qatar_id">  ادخل البطاقة الشخصية القطرية  </string>
+    <string name="enter_CR">سجل رقم قيد المنشأة</string>
+
     <string name="enter_mobile_no">  ادخل رقم الجوال  </string>
     <string name="before_proceed_message">  لإكمال عملية التسجيل الرجاء تحميل البطاقة الشخصية القطرية من صفحة الملف الشخصي ، وإضافة مبلغ التأمين.  </string>
+    <string name="before_proceed_message1">يرجى تحميل نسخة من جواز سفرك وإضافة مبلغ التامين لتنشيط حسابك. </string>
+
     <string name="close">   إغلاق   </string>
     <string name="please_wait">  ارجوك انتظر…   </string>
     <string name="sure_exit_now">   هل تريد بالتأكيد الخروج الآن؟  </string>
@@ -123,13 +149,15 @@
 لقد تم حظرك من قبل مزادات المحاكم ، يرجى التواصل مع الرقم 50021222  </string>
     <string name="duplicate_qatar_id">  معرف قطر %1$s أنه مسجل مسبقا   </string>
     <string name="duplicate_mobile">  رقم الهاتف المحمول %1$s أنه مسجل مسبقا  </string>
-    <string name="share_content">  مرحباً ، أنا أستخدم Court Mzadat ، وهو تطبيق مزاد في قطر. يمكنك تنزيله من www.platinummzadat.qa/download     </string>
-    <string name="share_bid_content">  أنا أستخدم تطبيق المزاد ، راجع هذا المزاد المستمر. %1$s, %2$s  </string>
+    <string name="share_content">  مرحباً ، أنا أستخدم Platinum Mzadat ، وهو تطبيق مزاد في قطر. يمكنك تنزيله من www.platinummzadat.qa/appdownload
+     </string>
+    <string name="share_bid_content">  أنا أستخدم تطبيق المزاد ، راجع هذا المزاد المستمر. %1$s,  %2$s </string>
     <string name="currency_format">  ر.ق : %1$s   </string>
     <string name="deposit_amount_required"> مبلغ التأمين المطلوب : ر.ق: %1$s  </string>
     <string name="greet_format">  مرحبا، %1$s  </string>
     <string name="try_with_diffferent_data">  يرجى المحاولة بتفاصيل مختلفة  </string>
-    <string name="last_login_format"> آخر تسجيل دخول: %1$s  </string>
+
+    <string name="lastara"> آخر تسجيل دخول </string>
     <string name="qatar_id_format">   البطاقة الشخصية  : %1$s   </string>
     <string name="my_bids_format">  %1$d\nمزايداتي  </string>
     <string name="winning_bids_format">  %1$d\nالمزايدات الفائزة   </string>
@@ -178,17 +206,25 @@
     <string name="filter_price">   السعر   </string>
     <string name="filter_ending">    الانتهاء  </string>
     <string name="filter_bids">   مزايده   </string>
+    <string name="latest_product">الأخير</string>
+
     <string name="gp_toHome"> العودة للصفحة الرئيسية  </string>
     <string name="more"><![CDATA[more>>]]></string> <!-- do not modify "<![CDATA[]]>" . Here the text to display is "more>>"  ie, "more" followed by two greater than symbols; this is used in auction details page-->
     <string name="title_activity_payment">  الدفع  </string>
     <string name="upload_qid_info_dashboard"> اضغط هنا لتحميل البطاقة الشخصية لنتمكن من تفعيل الحساب   </string>
     <string name="you_are_the_last_bidder">  صاحب المزايده الاخيره  </string>
     <string name="upload_both_sides_of_your_qatar_id">  الرجاء تحميل الوجه الامامي والخلفي للبطاقة الشخصية القطريه  </string>
+    <string name="upload_both_sides_of_your_qatar_id1">يرجى تحميل كلا الجانبين الأمامي والخلفي لجواز سفرك</string>
+
     <string name="make_payment"> ادفع  </string>
     <string name="email">   البريد الإلكتروني    </string>
+    <string name="whatsapp">واتساب</string>
+
     <string name="phone_number">  رقم الهاتف  </string>
     <string name="office_address"> عنوان المكتب  </string>
     <string name="checking_bid_status">  مراجعة حالة المزايده </string>
+    <string name="checking_bid_status1">جاري العمل على طلبكم</string>
+
     <string name="someone_placed_another_bid">  أحدهم تقدم بعرض أعلى ، الرجاء رفع السعر لقبول العطاء الخاص بكم .  </string>
     <string name="title_activity_terms_of_service">    تعليمات الاستخدام  </string>
     <string name="welcome">   أهلا بك   </string>
@@ -209,16 +245,17 @@
     <string name="update"> تحديث التطبيق </string>
     <string name="personal"> شخصي </string>
     <string name="company"> شركة </string>
-    <string name="register_as_company"> التسجيل كشركة </string>
+    <string name="register_as_company"> سجل الشركة </string>
     <string name="label_register_as_company">Please submit the following form to register your company for participating Auction</string>
     <string name="enter_company_name" > أدخل اسم الشركة </string>
     <string name="enter_company_registration" > ادخل رقم قيد المنشأة </string>
     <string name="enter_auth_signee_qid"> ادخل رقم بطاقة المفوض من الشركة </string>
     <string name="select_file">Select File</string>
-    <string name="attach_company_cr_copy"> الرجاء إرفاق بطاقة قيد المنشأة </string>
-    <string name="attach_autherised_signee_id"> الرجاء إرفاق صورة البطاقة للمفوض بالمزايده </string>
+    <string name="attach_company_cr_copy"> ارفق صورة بطاقة قيد المنشأة</string>
+    <string name="attach_autherised_signee_id">ارفق الرقم الشخصي للعارض المفوض </string>
     <string name="attach_auth_letter"> كتاب تفويض للمزايده باسم الشركه </string>
-    <string name="REGISTER_AS_COMPANY"> التسجيل كشركة </string>
+    <string name="REGISTER_AS_COMPANY">سجل الشركة </string>
+<!--    <string name="REGISTER_AS_COMPANY"> التسجيل كشركة </string>-->
     <string name="company_details_updated"> تم تحديث تفاصيل الشركة </string>
     <string name="company_details_update_failed"> فشل تحديث تفاصيل الشركة. حاول مرة أخري  </string>
     <string name="enter_valid_computer_card_number">  الرجاء إدخال رقم بطاقة كمبيوتر صحيح  </string>
@@ -228,4 +265,29 @@
     <string name="authorisation_letter_uploaded"> تم تحميل خطاب التفويض   </string>
     <string name="authorisation_signee_id_copy_uploaded"> تم تحميل نسخة من هوية التوقيع المفوض </string>
     <string name="company_cr_uploaded"> تم تحميل نسخة السجل التجاري للشركة </string>
+
+
+
+    <string name="companyName">اسم الشركة</string>
+    <string name="company_registration_number">رقم قيد المنشاة</string>
+    <string name="autherised_signee_id_qidNum">رقم البطاقة الشخصية للعارض المفوض</string>
+    <string name="authorized_signee_id_copy">نسخة من هوية مقدم العطاء المعتمد</string>
+    <string name="authorizationletter">خطاب تفويض</string>
+    <string name="only_approved_person">يمكن للمستخدم الشخصي المعتمد التسجيل كشركة فقط</string>
+
+    <string name="approved_person_can_resister">يمكن فقط للمستخدم الشخصي المعتمد التسجيل كشركة.  يرجى التسجيل كمستخدم شخصي وحاول مرة أخرى لتسجيل الشركة</string>
+    <string name="login_duplicate_mobile">لتسجيل الدخول: يجب أن يتطابق رقم قيد المنشأة ورقم الهاتف الجوال.
+
+ للتسجيل الجديد: يجب ان لا يكون رقم قيد المنشأة ورقم الهاتف الجوال مسجلين م</string>
+
+    <string name="starton">يبدأ بعد</string>
+    <string name="expireson">ينتهي بعد</string>
+    <string name="computer_card_cpoy">Computer Card Copy</string>
+    <string name="fullnamepassport">الاسم الكامل كما في جواز السفر</string>
+    <string name="emailmismatchh">تسجيل الدخول: يجب أن يتطابق عنوان البريد الإلكتروني مع رقم الهاتف المحمول.
+
+ للتسجيل الجديد: يجب ألا يكون عنوان البريد الإلكتروني ورقم الهاتف المحمول مسجلين مسبقًا</string>
+    <string name="yourqatarpassport">جواز السفر</string>
+    <string name="onlyqataruser">يسمح للمستخدم القطري التسجيل كشركة</string>
+
 </resources>

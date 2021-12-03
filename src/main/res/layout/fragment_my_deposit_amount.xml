@@ -121,7 +121,7 @@
         android:id="@+id/tvIncreaseDeposit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#D27A113C"
+        android:background="@color/colorYellowLight"
         android:clickable="true"
         android:foreground="?android:selectableItemBackground"
         android:gravity="center"

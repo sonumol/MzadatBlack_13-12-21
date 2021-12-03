@@ -1,0 +1,5 @@
+E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/.cxx/cmake/debug/armeabi-v7a/cipher.out/CMakeFiles/cipher-lib.dir
+E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/.cxx/cmake/debug/armeabi-v7a/cipher.out/CMakeFiles/edit_cache.dir
+E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/.cxx/cmake/debug/armeabi-v7a/cipher.out/CMakeFiles/rebuild_cache.dir

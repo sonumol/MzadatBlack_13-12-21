@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\build\\cipher.so\\CMakeLists.txt",
+    "E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\build\\cipher.so\\cmake\\CMakeLists.txt",
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cipher-lib-Release-arm64-v8a": {
+      "artifactName": "cipher-lib",
+      "buildCommand": "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\.cxx\\cmake\\release\\arm64-v8a\" cipher-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\Weblanza\\mzadat new\\black_mzadat\\new_black\\MzadatBlack-20191104\\MzadatBlack\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libcipher-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

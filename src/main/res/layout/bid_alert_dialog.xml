@@ -110,10 +110,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            app:backgroundTint="@color/colorPrimaryDark"
-            android:backgroundTint="@color/primary_button_background_color"
+            app:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
             android:textColor="@color/primary_button_text_color"
             android:minHeight="56dp"
+
             android:text="@string/place_bid"
             app:cornerRadius="4dp" />
     </LinearLayout>

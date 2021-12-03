@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/root"
-    tools:context="com.platinummzadat.qa.views.splash.SplashActivity">
+    tools:context="app.platinummzadat.qa.views.splash.SplashActivity">
 
 
 
     <include layout="@layout/activity_proceed_message" />
 
 
+    <include layout="@layout/activity_pro" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

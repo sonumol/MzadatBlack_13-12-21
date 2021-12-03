@@ -7,7 +7,7 @@
     android:fillViewport="true"
     android:fitsSystemWindows="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.platinummzadat.qa.views.login.LoginActivity"
+    tools:context="app.platinummzadat.qa.views.login.LoginActivity"
     tools:showIn="@layout/activity_login">
 
 
@@ -54,11 +54,11 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="128dp"
-                android:layout_height="128dp"
+                android:layout_width="wrap_content"
+                android:layout_height="138dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logodark" />
 
             <TextView
                 android:id="@+id/textView"
@@ -110,13 +110,55 @@
                         android:textColor="@color/primary_button_text_color"
                         android:textSize="16sp" />
             </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="32dp"
+            android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:gravity="center_vertical"
+                app:ccp_hintExampleNumber="true"
+                android:id="@+id/country_code_picker"
+                android:clickable="true"
+                android:focusable="true"
+                app:ccp_showFlag="false"
+              app:ccp_defaultNameCode="QA"
+            app:ccp_showNameCode="false"
+            android:layout_width="wrap_content"
+            app:ccp_contentColor="@color/colorWhite"
+            app:ccp_textSize="16dp"
+            android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+
+            </com.hbb20.CountryCodePicker>
+            <EditText
+                android:id="@+id/etMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#fafafa"
+                android:digits="0123456789"
+                android:ems="6"
+                android:textCursorDrawable="@drawable/black_cursor"
+                android:hint="@string/enter_mobile_no"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+
+                android:textColor="@color/colorEditTextLogin"
+                android:textColorHint="@color/colorTextHintLogin"
+                android:textStyle="italic" />
+        </LinearLayout>
             <EditText
                 android:id="@+id/etQatarId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:textCursorDrawable="@drawable/black_cursor"
                 android:backgroundTint="#fafafa"
                 android:digits="0123456789"
                 android:ems="10"
@@ -127,13 +169,36 @@
                 android:nextFocusDown="@+id/etMobileNumber"
                 android:textColor="@color/colorEditTextLogin"
                 android:textColorHint="@color/colorTextHintLogin"
+                android:textCursorDrawable="@drawable/black_cursor"
                 android:textStyle="italic" />
 
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="+974"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:id="@+id/country_code_picker1"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </TextView>
             <EditText
-                android:id="@+id/etMobileNumber"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:id="@+id/etMobileNumber1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="32dp"
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#fafafa"
                 android:layout_marginRight="32dp"
@@ -148,7 +213,26 @@
                 android:textColor="@color/colorEditTextLogin"
                 android:textColorHint="@color/colorTextHintLogin"
                 android:textStyle="italic" />
-
+ </LinearLayout>
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/etcrnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:textCursorDrawable="@drawable/black_cursor"
+                android:backgroundTint="#fafafa"
+                android:digits="0123456789"
+                android:ems="10"
+                android:hint="@string/enter_CR"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="8"
+                android:nextFocusDown="@+id/etMobileNumber"
+                android:textColor="@color/colorEditTextLogin"
+                android:textColorHint="@color/colorTextHintLogin"
+                android:textStyle="italic" />
             <LinearLayout
                 android:id="@+id/llTac"
                 android:layout_width="wrap_content"
@@ -187,19 +271,6 @@
                 android:layout_marginRight="32dp">
 
 
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="110dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/grp11"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-
-                </ImageView>
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -228,7 +299,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="16dp"
                     android:text="@string/submit"
-                    android:textColor="#000000"
+                    android:textColor="@color/colorWhite"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -239,6 +310,7 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:tint="@color/colorWhite"
                     app:layout_constraintBottom_toBottomOf="@+id/textView2"
                     app:layout_constraintStart_toEndOf="@+id/textView2"
                     app:layout_constraintTop_toTopOf="@+id/textView2"

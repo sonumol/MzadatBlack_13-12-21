@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Court Mzadat</string>
-    <string name="court_mzadat">Court Mzadat</string>
+    <string name="app_name">Platinum Mzadat</string>
+    <string name="court_mzadat">Platinum Mzadat</string>
     <string name="action_language_switch">العربية</string>
     <string name="title_activity_splash">Mzadat</string>
     <string name="title_activity_deep_link">@string/app_name</string>
@@ -33,6 +33,11 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="home_icons1">Auctions </string>
+    <string name="home_icons2">Direct Purchase</string>
+    <string name="buy">BUY NOW</string>
+
+
     <string name="some_error_occurred_try_again">Some error occurred! Try again</string>
     <string name="search">Search</string>
     <string name="wishing_bids">Wishing Bids</string>
@@ -43,10 +48,12 @@
     <string name="paid_on">Paid On</string>
     <string name="my_bids">My Bids</string>
     <string name="my_profile">My Profile</string>
-
+    <string name="select_option">Select Option</string>
     <string name="retry">Retry</string>
     <string name="nav_auctions">Auctions</string>
+    <string name="direct_Purchase">Direct Purchase</string>
     <string name="nav_my_profile">My Profile</string>
+    <string name="nav_my_PRODUCT">My Products</string>
     <string name="nav_deposit_amount">Deposit Amount</string>
     <string name="nav_my_bids">My Bids</string>
     <string name="nav_about_us">About Us</string>
@@ -72,11 +79,17 @@
     <string name="inspection_location_map">INSPECTION LOCATION MAP</string>
     <string name="send_feedback">SEND FEEDBACK</string>
     <string name="share_this_bid">SHARE THIS BID</string>
+    <string name="share_this_bid1">SHARE THIS PRODUCT</string>
     <string name="inspection_report">INSPECTION REPORT</string>
     <string name="terms_and_conditions"><![CDATA[TERMS & CONDITIONS]]></string>
     <string name="specification">SPECIFICATION</string>
     <string name="title_activity_slider">View Image</string>
     <string name="place_bid">Place Bid</string>
+    <string name="buy_product"> Are you sure to buy this product</string>
+    <string name="yes"> YES</string>
+    <string name="no"> NO</string>
+
+
     <string name="bid_alert_terms_and_conditions">I hereby confirm that I have read all specifications and terms of this auction and I accept it\'s condition</string>
     <string name="minimum_bid_amount_format">Minimum bid amount is %1$s</string>
     <string name="accept_tac_to_place_bid">Please accept the terms and condition to place bid</string>
@@ -85,6 +98,9 @@
     <string name="logged_out">Logged out</string>
     <string name="title_activity_search">Search</string>
     <string name="search_format">Search: %1$s</string>
+    <string name="invalid_credentials3">Another person has already registered with this CR number. Please try with new CR or contact admin at 40093636 </string>
+    <string name="invalid_credentials4">For LOGIN: CC No. and Mobile Number should match.\n\nFor NEW REGISTRATION: CC No. and Mobile number should not be previously registered</string>
+
     <string name="invalid_credentials2"> For LOGIN: QID and Mobile Number should match.\n\nFor NEW REGISTRATION: QID and Mobile number should not be previously registered</string>
     <string name="invalid_credentials">For LOGIN: QID and Mobile Number should match.\n\nFor NEW REGISTRATION: QID and Mobile number should not be previously registered</string>
     <string name="some_error_occurred">Some error occurred!</string>
@@ -94,6 +110,7 @@
     <string name="please_login_to_continue">Please login to continue</string>
     <string name="login">Login</string>
     <string name="can_not_place_bid">Can\'t place bid</string>
+    <string name="can_not_buy">Can\'t buy</string>
     <string name="ok">OK</string>
     <string name="added_to_wish_list">Added to wish list</string>
     <string name="location_not_available">Location not available</string>
@@ -110,8 +127,11 @@
     <string name="otp_resend">OTP resend. Please wait</string>
     <string name="otp_resend2">OTP resend. Please wait</string>
     <string name="enter_qatar_id">Enter Your Qatar ID No.</string>
+    <string name="enter_CR">Enter Your CC No.</string>
     <string name="enter_mobile_no">Enter Your Mobile No.</string>
     <string name="before_proceed_message">Please upload the copy of your Qatar ID and add security amount for your account activation. </string>
+    <string name="before_proceed_message1">Please upload the copy of your Passport and add security amount for your account activation. </string>
+
     <string name="close">Close</string>
     <string name="please_wait">Please wait…</string>
     <string name="sure_exit_now">Sure want to exit now?</string>
@@ -125,12 +145,15 @@
     <string name="duplicate_mobile">Mobile number %1$s is already registered</string>
     <string name="otp_expire_message">Sorry, the OTP is expired. Please click on Resned OTP.</string>
     <string name="three_more_time_msg">Your account with Court Mzadat is blocked as you entered wrong OTP three times.</string>
-    <string name="share_content">Hi, I am using Court Mzadat, an auction application in Qatar. You can download it from www.platinummzadat.qa/download</string>
-    <string name="share_bid_content">I am using auction app, checkout this ongoing auction. %1$s, %2$s</string>
+    <string name="share_content">Hi, I am using Platinum Mzadat, an auction application in Qatar. You can download it from www.platinummzadat.qa/appdownload</string>
+    <string name="share_bid_content">I am using auction app, checkout this ongoing auction. %1$s, %2$s </string>
+    <string name="share_product">I am using auction app, checkout this ongoing auction.%1$s, %2$s </string>
+
     <string name="currency_format">QAR: %1$s</string>
     <string name="deposit_amount_required">Deposit Amount required: QAR. %1$s</string>
     <string name="greet_format">Hi, %1$s</string>
-    <string name="last_login_format">Last Login: %1$s</string>
+    <!--    <string name="last_login_format">Last Login: %1$s</string>-->
+    <string name="lastara">Last Login </string>
     <string name="qatar_id_format">Qatar ID: %1$s</string>
     <string name="my_bids_format">%1$d\nMy Bids</string>
     <string name="winning_bids_format">%1$d\nWinning Bids</string>
@@ -176,25 +199,32 @@
     <string name="profile_photo_upload_failed">Profile photo upload failed</string>
     <string name="authorisation_letter_upload_failed">Authorisation Letter upload failed</string>
     <string name="authorisation_signee_id_copy_upload_failed">Authorised signee ID copy upload failed</string>
-    <string name="company_cr_upload_failed">Company CR copy upload failed</string>
+    <string name="company_cr_upload_failed">Company CC copy upload failed</string>
     <string name="authorisation_letter_uploaded">Authorisation Letter uploaded</string>
     <string name="authorisation_signee_id_copy_uploaded">Authorised signee ID copy uploaded</string>
-    <string name="company_cr_uploaded">Company CR copy uploaded</string>
+    <string name="company_cr_uploaded">Company CC copy uploaded</string>
     <string name="more"><![CDATA[more>>]]></string>
     <string name="filter">Filter:</string>
     <string name="filter_price">PRICE</string>
     <string name="filter_ending">ENDING</string>
     <string name="filter_bids">BIDS</string>
+    <string name="latest_product">LATEST</string>
+
     <string name="title_activity_payment">Payment</string>
     <string name="upload_qid_info_dashboard">Click here to upload your Qatar ID copy\nin order to activate your account</string>
     <string name="you_are_the_last_bidder">You are the last bidder</string>
     <string name="upload_both_sides_of_your_qatar_id">Please upload both front and back side of your Qatar ID</string>
+    <string name="upload_both_sides_of_your_qatar_id1">Please upload both front and back side of your Passport</string>
+
     <string name="make_payment">Make Payment</string>
     <string name="someone_placed_another_bid">Someone placed another bid with a higher amount. Please increment your bid amount.</string>
     <string name="email">Email</string>
+    <string name="whatsapp">Whatsapp</string>
+
     <string name="phone_number">Phone Number</string>
     <string name="office_address">Office Address</string>
     <string name="checking_bid_status">Checking bid status</string>
+    <string name="checking_bid_status1">Processing</string>
     <string name="title_activity_terms_of_service">Terms Of Use</string>
     <string name="welcome">Welcome</string>
     <string name="full_name">Full name</string>
@@ -215,25 +245,38 @@
     <string name="update">Update App</string>
     <string name="personal">Personal</string>
     <string name="company">Company</string>
-    <string name="register_as_company">Register as Company</string>
+    <string name="register_as_company">Company Registration</string>
     <string name="label_register_as_company">Please submit the following form to register your company for participating Auction</string>
-    <string name="enter_company_name" >Enter Company Name</string>
-    <string name="enter_company_registration" >Enter computer card number</string>
+    <string name="enter_company_name">Enter Company Name</string>
+    <string name="enter_company_registration">Enter Computer Card Number</string>
 
 
-    <string name="enter_auth_signee_qid">Enter Autherized Signee’s QID Number</string>
+    <string name="enter_auth_signee_qid">Enter Authorised Bidder QID Number</string>
     <string name="select_file">Select File</string>
-    <string name="attach_company_cr_copy">Attach Company CR copy</string>
-    <string name="attach_autherised_signee_id">Attach Authorised Signee ID Copy</string>
+    <string name="attach_company_cr_copy">Attach Computer Card copy</string>
+    <string name="attach_autherised_signee_id">Attach Authorised Bidder ID Copy</string>
     <string name="attach_auth_letter">Attach Authorisation Letter</string>
-    <string name="REGISTER_AS_COMPANY">REGISTER AS COMPANY</string>
-    <string name="company_details_updated">Company details updated</string>
+  //  <string name="REGISTER_AS_COMPANY">Company Registration</string>
+    <!--    <string name="REGISTER_AS_COMPANY">REGISTER AS COMPANY</string>-->
+
+    <string name="company_details_updated">Company Details Updated</string>
     <string name="company_details_update_failed">Company details update failed. try again</string>
     <string name="enter_valid_computer_card_number">Please enter valid computer card number</string>
-    <string name="computer_card_cpoy" >Computer Card Copy</string>
+    <string name="computer_card_cpoy">Computer Card Copy</string>
     <string name="companyName">Company Name</string>
-    <string name="company_registration_number">Company  Registration Number</string>
-    <string name="autherised_signee_id_qidNum">Autherized Signee\'s QID Number</string>
-    <string name="authorized_signee_id_copy" >Authorized Signee ID Copy</string>
-    <string name="authorizationletter" >Authorisation Letter</string>
+    <string name="company_registration_number">Computer Card Number</string>
+    <string name="autherised_signee_id_qidNum">Authorized Bidder QID Number</string>
+    <string name="authorized_signee_id_copy">Authorized Bidder ID Copy</string>
+    <string name="authorizationletter">Authorisation Letter</string>
+   <string name="only_approved_person">Only approved personal user can register as company</string>
+
+    <string name="approved_person_can_resister">Only approved personal user can register as company. Kindly register as a personal user and try again for company registration</string>
+    <string name="login_duplicate_mobile">For LOGIN: CC No. and Mobile Number should match.\n\nFor NEW REGISTRATION: CC No. and Mobile number should not be previously registered</string>
+
+    <string name="starton">Starts on</string>
+    <string name="expireson">Expires on</string>
+<string name="fullnamepassport">Full Name as in Passport</string>
+    <string name="emailmismatchh">For LOGIN: Email Address and Mobile Number should match.\n\nFor NEW REGISTRATION: Email Address and Mobile number should not be previously registered</string>
+    <string name="yourqatarpassport">YOUR PASSPORT:</string>
+<string name="onlyqataruser">Only Qatar user can register as company</string>
 </resources>

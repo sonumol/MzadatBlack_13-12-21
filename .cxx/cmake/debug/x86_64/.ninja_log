@@ -1,0 +1,6 @@
+# ninja log v5
+1	3985	648376069	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	9890dae7cf7db825
+4	4144	648376069	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	83f38d43b75ff3c
+4144	8413	648376074	E:/Weblanza/mzadat new/black_mzadat/new_black/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/debug/obj/x86_64/libcipher-lib.so	5ea8918957551dd6
+94	591	653651264	build.ninja	79570facf4af411a
+0	39	0	clean	2578cf2e1c50266c

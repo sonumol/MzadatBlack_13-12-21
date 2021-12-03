@@ -13,3 +13,51 @@
 1	1057	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
 1	1082	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
 1082	1182	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	21	0	build.ninja	c0add0b4488e4a4e
+1	1360	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+2	1362	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1362	1446	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	22	0	build.ninja	c0add0b4488e4a4e
+1	962	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	963	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+963	1075	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	27	0	build.ninja	c0add0b4488e4a4e
+2	1126	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+2	1154	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+1154	1252	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+1	22	0	build.ninja	c0add0b4488e4a4e
+1	807	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	822	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+822	912	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	41	0	build.ninja	c0add0b4488e4a4e
+1	865	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	879	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+879	919	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	25	0	build.ninja	c0add0b4488e4a4e
+1	1202	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+1	1413	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1413	1466	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	30	0	build.ninja	c0add0b4488e4a4e
+2	1622	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+2	1976	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+1976	2056	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+1	18	0	build.ninja	c0add0b4488e4a4e
+1	769	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	808	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+808	845	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	24	0	build.ninja	c0add0b4488e4a4e
+1	769	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	802	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+802	841	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	17	0	build.ninja	c0add0b4488e4a4e
+1	774	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	782	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+782	821	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+0	20	0	build.ninja	c0add0b4488e4a4e
+0	767	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+0	799	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+799	840	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575
+1	20	0	build.ninja	c0add0b4488e4a4e
+1	947	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/Environments.cpp.o	3b3b95057bd1249d
+1	964	0	cipher.out/CMakeFiles/cipher-lib.dir/src/main/cpp/cipher-lib.cpp.o	2bfc581f93df68e2
+964	1012	0	/home/mba/AndroidStudioProjects/weblanza Mzadat/PM-Android Copy/MzadatBlack-20191104/MzadatBlack/app/build/intermediates/cmake/release/obj/x86/libcipher-lib.so	204a55be6f3c575

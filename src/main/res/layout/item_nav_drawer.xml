@@ -6,7 +6,7 @@
 
         <variable
             name="item"
-            type="com.platinummzadat.qa.data.models.NavDrawerModel" />
+            type="app.platinummzadat.qa.data.models.NavDrawerModel" />
     </data>
 
     <LinearLayout

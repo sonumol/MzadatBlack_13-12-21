@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#7A113C</color>
-    <color name="colorPrimaryTrans">#85CF3273</color>
-    <color name="colorPrimaryDark">#7A113C</color>
-    <color name="colorAccent">#C82B6C</color>
+    <color name="colorPrimary">#222021</color>
+    <color name="colorPrimaryTrans">#6D131213</color>
+    <color name="colorPrimaryDark">#131213</color>
+    <color name="colorAccent">#4b4a48</color>
     <color name="colorBoxBorder">#66ffffff</color>
     <color name="colorYellow">#C7A456</color>
+    <color name="colorWhite">#ffffff</color>
     <color name="colorYellowDark">#997A3C</color>
     <color name="colorYellowLight">#DBBB74</color>
     <color name="colorTextHintLogin">#fafafa</color>
     <color name="colorEditTextLogin">#ffffff</color>
-    <color name="colorBackground">#85CF3273</color>
-    <color name="colorBackgroundDark">#7A113C</color>
+    <color name="colorBackground">#4A222021</color>
+    <color name="colorBackgroundDark">#222021</color>
     <color name="colorBackgroundWhite">#ebebeb</color>
     <color name="colorBackgroundDarkWhite">#d3d3d3</color>
     <color name="colorDashSubTitle">#fdfdfd</color>
@@ -29,4 +30,7 @@
     <color name="colorDepositAmountBlack">#222222</color>
     <color name="colorDepositAmountRed">#E02323</color>
     <color name="colorPrimaryLight">#85CF3273</color>
+    <color name="green">#008e0d</color>
+    <color name="red">#ce0000</color>
+
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.platinummzadat.qa.views.root.auctions.AuctionsFragment">
+    tools:context="app.platinummzadat.qa.views.root.auctions.AuctionsFragment">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -84,7 +84,7 @@
                     android:layout_marginVertical="8dp"
                     android:gravity="center"
                     android:text="@string/label_register_as_company"
-                    android:textColor="@color/solid_black"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="16sp">
 
 
@@ -111,7 +111,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/solid_black"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="16sp">
 
                     </TextView>
@@ -138,7 +138,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/solid_black"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="17sp">
 
                     </TextView>
@@ -165,7 +165,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/solid_black"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="16sp">
 
                     </TextView>
@@ -193,7 +193,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center_vertical"
                         android:scaleType="fitCenter"
-                        android:textColor="@color/solid_black"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="16sp">
 
                     </ImageView>
@@ -258,6 +258,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="visible"
                 android:id="@+id/containerMain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -269,8 +270,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="8dp"
                     android:gravity="center"
-                    android:text="@string/label_register_as_company"
-                    android:textColor="@color/solid_black"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
                     android:textSize="16sp">
 
                 </TextView>
@@ -292,6 +293,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    android:visibility="visible"
                     android:id="@+id/text_input_layout_companyRg"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
@@ -318,6 +320,8 @@
 
                     <EditText
                         android:id="@+id/etAuthQID"
+                        android:maxLength="11"
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="16sp" />

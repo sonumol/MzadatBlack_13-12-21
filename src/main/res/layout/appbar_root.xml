@@ -4,6 +4,7 @@
     android:id="@+id/drawer_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
     tools:context=".views.root.RootActivity">
 
@@ -11,7 +12,7 @@
 
     <fragment
         android:id="@+id/mainNavFragment"
-        android:name="com.platinummzadat.qa.views.root.drawer.MainDrawerFragment"
+        android:name="app.platinummzadat.qa.views.root.drawer.MainDrawerFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"

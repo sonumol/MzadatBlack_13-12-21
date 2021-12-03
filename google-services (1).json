@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197863576468",
+    "project_id": "platinum-mazadat",
+    "storage_bucket": "platinum-mazadat.appspot.com"
+  },
+
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197863576468:android:fecea152d5f274917a7581",
+        "android_client_info": {
+          "package_name": "app.platinummzadat.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197863576468-jjahstc0fk6hv1kri56u5o8vhp5in2pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQFbkAfQTKe3e6p0-Vh_1tkM4SA6YqtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197863576468-jjahstc0fk6hv1kri56u5o8vhp5in2pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

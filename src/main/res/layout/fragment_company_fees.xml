@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.platinummzadat.qa.views.root.companyfees.WinningBidsFragment">
+    tools:context="app.platinummzadat.qa.views.root.companyfees.WinningBidsFragment">
 
     <ProgressBar
         android:id="@+id/loading"

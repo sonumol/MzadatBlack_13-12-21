@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/root"
-    tools:context="com.platinummzadat.qa.views.tosactivity.TermsOfServiceActivity">
+    tools:context="app.platinummzadat.qa.views.tosactivity.TermsOfServiceActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"

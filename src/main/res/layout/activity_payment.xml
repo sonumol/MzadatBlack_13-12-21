@@ -7,7 +7,7 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.platinummzadat.qa.views.root.profile.deposit.PaymentActivity">
+    tools:context="app.platinummzadat.qa.views.root.profile.deposit.PaymentActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/appBarLayout"

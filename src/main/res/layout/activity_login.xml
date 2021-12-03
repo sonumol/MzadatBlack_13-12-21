@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/root"
-    tools:context="com.platinummzadat.qa.views.login.LoginActivity">
+    tools:context="app.platinummzadat.qa.views.login.LoginActivity">
 
 
     <include layout="@layout/content_login" />

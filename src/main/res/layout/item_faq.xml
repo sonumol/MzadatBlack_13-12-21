@@ -7,7 +7,7 @@
 
         <variable
             name="item"
-            type="com.platinummzadat.qa.data.models.FAQData" />
+            type="app.platinummzadat.qa.data.models.FAQData" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

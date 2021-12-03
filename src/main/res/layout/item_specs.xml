@@ -5,7 +5,7 @@
 
         <variable
             name="item"
-            type="com.platinummzadat.qa.data.models.KeyValueModel" />
+            type="app.platinummzadat.qa.data.models.KeyValueModel" />
     </data>
 
     <LinearLayout
